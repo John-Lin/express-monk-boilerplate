@@ -8,7 +8,7 @@ let mongo = require('mongodb');
 let monk = require('monk');
 let db = monk('localhost:27017/nodetest2');
 
-let routes = require('./routes/indes.js');
+let routes = require('./routes/index.js');
 let users = require('./routes/user.js');
 
 let app = express();
